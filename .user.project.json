@@ -1,0 +1,140 @@
+{
+  "run": [
+    {
+      "filePath": "/KL-EE/webapp/test/mockServer.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "urlParameters": [
+        {
+          "paramName": "",
+          "paramValue": "",
+          "paramActive": false
+        },
+        {
+          "paramName": "",
+          "paramValue": "",
+          "paramActive": false
+        }
+      ],
+      "hashParameter": "",
+      "ui5ActiveVersion": "snapshot",
+      "ui5VerSource": null,
+      "isDefaultVersion": 1,
+      "_metadata": {
+        "id": "4945788",
+        "runnerId": "webapprunner",
+        "displayName": "App (Mock Server)",
+        "lastRunTimeStamp": 1529175084206
+      }
+    },
+    {
+      "filePath": "/KL-EE/webapp/index.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "urlParameters": [
+        {
+          "paramName": "",
+          "paramValue": "",
+          "paramActive": false
+        },
+        {
+          "paramName": "",
+          "paramValue": "",
+          "paramActive": false
+        }
+      ],
+      "hashParameter": "",
+      "ui5ActiveVersion": "snapshot",
+      "ui5VerSource": null,
+      "isDefaultVersion": 1,
+      "_metadata": {
+        "id": "9693620",
+        "runnerId": "webapprunner",
+        "displayName": "App",
+        "lastRunTimeStamp": 1529141356015
+      }
+    },
+    {
+      "filePath": "/KL-EE/webapp/test/unit/unitTests.qunit.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": "snapshot",
+      "ui5VerSource": null,
+      "isDefaultVersion": 1,
+      "urlParameters": [
+        {
+          "paramName": "",
+          "paramValue": "",
+          "paramActive": false
+        },
+        {
+          "paramName": "",
+          "paramValue": "",
+          "paramActive": false
+        }
+      ],
+      "_metadata": {
+        "id": "8992886",
+        "runnerId": "webapprunner",
+        "displayName": "Unit Tests"
+      }
+    },
+    {
+      "filePath": "/KL-EE/webapp/test/integration/opaTests.qunit.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": "snapshot",
+      "ui5VerSource": null,
+      "isDefaultVersion": 1,
+      "urlParameters": [
+        {
+          "paramName": "",
+          "paramValue": "",
+          "paramActive": false
+        },
+        {
+          "paramName": "",
+          "paramValue": "",
+          "paramActive": false
+        }
+      ],
+      "hashParameter": "",
+      "_metadata": {
+        "id": "5401251",
+        "runnerId": "webapprunner",
+        "displayName": "OPA Tests"
+      }
+    },
+    {
+      "filePath": "/KL-EE/webapp/test/testsuite.qunit.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": "snapshot",
+      "ui5VerSource": null,
+      "isDefaultVersion": 1,
+      "urlParameters": [
+        {
+          "paramName": "",
+          "paramValue": "",
+          "paramActive": false
+        },
+        {
+          "paramName": "",
+          "paramValue": "",
+          "paramActive": false
+        }
+      ],
+      "hashParameter": "",
+      "_metadata": {
+        "id": "1383701",
+        "runnerId": "webapprunner",
+        "displayName": "Test Suite (Unit, OPA)"
+      }
+    }
+  ]
+}

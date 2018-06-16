@@ -1,0 +1,33 @@
+[
+	{
+	"ArticleID": "0000001",
+	"Name": "1_ArticleScan",
+	"Description": "Place Barcode in front of Camera"
+},{
+	"ArticleID": "1166651",
+	"Name": "Stauden Mix",
+	"Description": "z.B. Rittersporn oder Löwenmäulchen, Topf: 13 cm ø",
+	"Bild": "https://media.kaufland.com/images/PPIM/Lago/c16221223_6.jpg",
+	"Price": {
+		"Amount": 1.99,
+		"Currency": "Eur"
+	}
+}, {
+	"ArticleID": "1173273",
+	"Name": "Gerbera XL",
+	"Bild": "https://media.kaufland.com/images/PPIM/Lago/c16221221_6.jpg",
+	"Description": "verschiedene Farben, Topf passend zur Blütenfarbe,Topf: 19 cm ø",
+	"Price": {
+		"Amount": 5.99,
+		"Currency": "Eur"
+	}
+}, {
+	"ArticleID": "1173300",
+	"Name": "deutsche Cocktail-Kräuter",
+	"Bild": "https://media.kaufland.com/images/PPIM/Lago/c16221062_6.jpg",
+	"Description": "verschiedene Sorten, der Frischekick für jeden Cocktail",
+	"Price": {
+		"Amount": 1.19,
+		"Currency": "Eur"
+	}
+}]

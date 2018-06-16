@@ -1,0 +1,71 @@
+<mvc:View
+	controllerName="kl-ee.KL-EE.controller.Detail"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:semantic="sap.m.semantic">
+
+	<semantic:DetailPage
+		id="page"
+		navButtonPress="onNavBack"
+		showNavButton="{device>/system/phone}"
+		title="{i18n>detailTitle}"
+		busy="{detailView>/busy}"
+		busyIndicatorDelay="{detailView>/delay}">
+
+		<semantic:content>
+			<ObjectHeader
+				id="objectHeader"
+				title="{Name}"
+				number="{
+					path: 'Price/Amount',
+					formatter: '.formatter.currencyValue'
+				}"
+				numberUnit="{Price/Currency}">
+			</ObjectHeader>
+			<IconTabBar
+				id="iconTabBar"
+				class="sapUiResponsiveContentPadding">
+				<items>
+					<IconTabFilter
+						id="iconTabBarFilter1"
+						icon="sap-icon://hint"
+						tooltip="{i18n>detailIconTabBarInfo}">
+						<Text text="ID- " />
+						<Text text="{ArticleID}" />
+						<Text text=" : " />
+						<Text text="{Description}" />
+						<Text text=" ) " />
+					</IconTabFilter>
+					<IconTabFilter
+						id="iconTabBarFilter2"
+						icon="sap-icon://attachment"
+						tooltip="{i18n>detailIconTabBarAttachments}">
+					</IconTabFilter>
+				</items>
+			</IconTabBar>
+			<ScrollContainer
+				height="100%"
+				width="100%"
+				horizontal="true"
+				vertical="true"
+				focusable="true">
+				<Image src="{img>Bild}" densityAware="false" width="{/width}" />
+			</ScrollContainer>
+
+		</semantic:content>
+
+	<semantic:customFooterContent>
+			<OverflowToolbarButton icon="sap-icon://bar-code" text="ReadBarCode" press="readBarcode"/>
+				<ToolbarSpacer/>
+				<Button type="Accept" text="Accept">
+					<layoutData><OverflowToolbarLayoutData priority="NeverOverflow" /></layoutData>
+				</Button>
+				<Button type="Reject" text="Reject">
+					<layoutData><OverflowToolbarLayoutData priority="NeverOverflow" /></layoutData>
+				</Button>
+				<OverflowToolbarButton text="Delete" icon="sap-icon://delete"/>
+	</semantic:customFooterContent>
+
+	</semantic:DetailPage>
+
+</mvc:View>
